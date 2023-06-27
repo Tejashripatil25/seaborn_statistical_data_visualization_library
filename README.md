@@ -25,6 +25,6 @@ Those variables can be either completely numerical or a category like a group, c
 
 6. Multi-plot grids: It is a useful approach to draw multiple instances of the same plot on different subsets of the dataset.
 
-Import Seaborn:
+### Import Seaborn:
 
 import seaborn as sns

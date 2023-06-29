@@ -25,6 +25,34 @@ Those variables can be either completely numerical or a category like a group, c
 
 6. Multi-plot grids: It is a useful approach to draw multiple instances of the same plot on different subsets of the dataset.
 
+   Using Seaborn we can plot wide varieties of plots like:
+
+### Distribution Plots
+
+Pie Chart & Bar Chart
+
+Scatter Plots
+
+Pair Plots
+
+Heat maps
+
 ### Import Seaborn:
 
 import seaborn as sns
+
+### Example:
+
+### importing packages
+
+import seaborn as sns
+
+### loading dataset
+
+data = sns.load_dataset("iris")
+
+### draw lineplot
+
+sns.lineplot(x="sepal_length", y="sepal_width", data=data)
+
+![image](https://github.com/Tejashripatil25/seaborn_statistical_data_visualization_library/assets/124791646/8f57a750-fdca-4fff-9d39-3e5dde065d5f)
